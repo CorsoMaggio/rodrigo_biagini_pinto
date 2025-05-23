@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRAZIONE</title>
+</head>
+<body>
+    <div>
+        <h1>CREA UN NUOVO ACCOUNT</h1>
+    </div>
+    <div>
+        Nome completo <input type="text" name="name" placeholder="Inserice il tuo nome">
+        <br><br>Email <input type="email" name="email_registrazione" placeholder="Inserice la tua email" />
+        <br><br>Password <input type="password" name="password_registrazione" placeholder="Crea una password" />
+        <br><br>Conferma Password <input type="password" name="conferma_password" placeholder="Ripeti la password" />
+    </div>
+    
+    <div>
+        <h1>Seleziona il tuo genere</h1>
+    </div>
+    <div>
+        <input type="radio" name="genere"/>Maschio
+        <br><input type="radio" name="genere"/>Femmina
+        <br><input type="radio" name="genere"/>Altro
+    </div>
+    <div>
+        <form method="POST">
+            <label for="descrizione">Breve descrizione</label>
+            <textarea id="descrizione" name="descrizione" placeholder="Parlaci di te..." rows="10" cols="30"></textarea>
+        </form>
+        <!--To format the tag "<textarea>" you can use the external CSS, or 2 main options inside the tag: 
+            1) rows="10" cols="30"
+            2) style="width: 300px; height: 150px;"-->
+    </div>
+     <div>
+        <br><button type="submit">Registrati</button>
+        <button type="reset">Cancella</button>
+    </div>
+     <div>
+        <nav>
+        <p>Hai già un account? <a href="login.html" target="_blank" />Effettua il login</a></p>
+        </nav>
+    </div>
+</body>
+</html>
