@@ -1,0 +1,44 @@
+/* For the CSS file, we must create for each part on the HTML */
+
+/* id we use for those for just 1 time, while we use "class" for those we are planning to use multiple times*/
+
+#basePage {
+    background-color: #003049;
+    color: #FDF0D5; /* Text or iten in the website*/
+    /* color-scheme: ; I did not used it, but this use to tell the browser wich scheme the website uses*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*font-size: clamp(2vw, 4vw, 10vw);*/
+    /* vw = viewport width to make it fit on the screen 
+    It defines by minimum size, maximum size and ideal size. It is good. make it responsive */
+    /* Now for the alligment we use the commands "display", "justify-content", "align-items" and the "text-align" so we can adjust everything */
+    display: block; /* It will align the container, as in one big display */
+    width: 100%;
+    height: 100%;
+    height: fit-content;
+    justify-content: center; /* align all the content, in this case the text and after will force the box, once it is in the same page */
+    align-items: center;
+    text-align: center;
+}
+
+#loginBox {
+    background-color: #780000; 
+    display: block;
+    width: 60%;
+    margin: 0% auto; /* This was the command that brought the box to the center of the page*/
+    color: #FDF0D5;
+    /* color-scheme: ; I did not used it, but this use to tell the browser wich scheme the website uses*/
+    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
+    font-size: clamp(2vw, 4vw, 10vw);
+    /* vw = viewport width to make it fit on the screen 
+    It defines by minimum size, maximum size and ideal size. It is good. make it responsive */
+    /* Now for the alligment we use the commands "display", "justify-content", "align-items" and the "text-align" so we can adjust everything */
+
+}
+
+/*
+
+#loginPage {
+}
+*/
+
+

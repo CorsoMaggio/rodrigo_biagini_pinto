@@ -1,0 +1,47 @@
+JavaScript esistono in una pagina HTML sempre. 
+
+console.log() è una funzione per mostrare messaggi nella console del browser (strumenti per sviluppatori).
+
+"Hello, World!" è una striga, un testo da visualizzare. 
+Ogni istruzione JavaScript termina spesso con un punto e virgola (), anche so non sempre obbligatorio. 
+
+const message = "Hello world" // Try edit me 
+
+// log to console
+console.log(message)
+
+variabili: contenitori per memorizzare dati. Puoi pensare a loro come etichetta che dai a un valore. 
+Utili per riutilizzare e modificare i dati nel tuo codice. 
+
+    let - Per variabili il cui valore puo cambiare
+    const - Per variabili il cui valore non dovrebbe cambiare (constanti)
+    var - Evitare se possibile, ha un comportamento piu complesso
+
+VARIABILI PRIMITIVA (Non puo essere modificata poi)
+
+Boolean: Rappresenta um valore di verita: True / False
+null: Rappresenta l'assenza intenzionale di un valore
+undefined: Indica che una variabile è stata dichiarata ma non ha ancora un valore. 
+string: solo letera
+number: solo numeri
+
+TIPI DI REFERENZA (POI ESSERE CAMBIATA POI)
+
+Tipi di dati array (lista), object & function (una insieme di operazione che dovra essere inserito)
+
+GENERARE UNA PASSWORD CONCATENANDO
+    NOME
+    COGNOME 
+    NUMERO PREFERITO 
+    COLORE PREFERITO 
+
+STAMPA IN CONSOLE QUESTA PASSWORD (H1) ("la tua password è (...)")
+
+Una funzione è un blocco di codice progettato per eseguire un compito specifico. 
+Permette di organizzare il codice, renderlo piu leggibile e riutilizzabile 
+Si definisce usando la parola chiave function, seguita dal nome della funzione, parentesi () per i parametri input e parentese grafi {} per il corpo della funzione. 
+
+function nomeDellaFunzione(input1, input2){
+    attivitaDellaFunzione
+}
+
