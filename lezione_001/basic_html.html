@@ -4,7 +4,7 @@
 Io uso anche una linea vuota fra una tag e un'altra per avete un codice piu polito e piu organizatto-->
 
 <html lang="en">
-    <!--Referenza di linguaggio scita. Puo essere inglese, portoghese, italiano, qualcosa vuoi. Inglese è la meglio pratiche generale-->
+<!--Referenza di linguaggio scita. Puo essere inglese, portoghese, italiano, qualcosa vuoi. Inglese è la meglio pratiche generale-->
 
     <head>
     <!--Tag che informa cosa sarà a testa dell sito, senza essere informato al client (utente) finale-->
@@ -19,15 +19,18 @@ Io uso anche una linea vuota fra una tag e un'altra per avete un codice piu poli
 </head>
 <!--Giusto dire che è il "cabeçalho" che abbiamo nell sito, comè un menu, una introduzione, qualcosa che va sopra la pagina-->
 
+<main></main>
+<!--La tag <main> in HTML definisce il contenuto principale di una pagina, separandolo da elementi come header, footer o menu. Deve essere unico per documento e rappresenta il contenuto centrale direttamente correlato alla pagina. Migliora accessibilità e SEO, aiutando browser e screen reader a identificare la parte piu importante.-->
+
 <body>
     <!--Non possiamo aprire più da una tag "<body>" pero possiamo si fare, all'interno di questa tag, fare quanti tag "<div> </div>" che vogliamo. 
     Tutto che c'è fuori questo tag sarà ignorado-->
 
     <form action="" method="">
-        <!--Questa tag crea moduli interattivi per raccongliere input dagli utenti
-        action definisce cosa deve fare questa tag-->
-        <!--In questo tag mettiamo tutti gli input per il utenti. Crea moduli interativi per i utenti. 
-        Questa informazione sarà inviata al nostro service-->
+    <!--Questa tag crea moduli interattivi per raccongliere input dagli utenti
+    action definisce cosa deve fare questa tag-->
+    <!--In questo tag mettiamo tutti gli input per il utenti. Crea moduli interativi per i utenti. 
+    Questa informazione sarà inviata al nostro service-->
 
     </form>
 
@@ -72,32 +75,52 @@ Io uso anche una linea vuota fra una tag e un'altra per avete un codice piu poli
     <!--Deve per forza configurare con CSS-->
     <!--Utilizzata per creare tabelle che servono per organizzare i dati in righe e colonne. Include elementi come "<tr>" per le righe, "<th>" per le intestazione delle colonne e "<td>" per le celle di dati, che permetteno una presentazione chiara e strutturata della informazione-->
 
-        <tr></tr> 
-        <!--righe nella tabella-->
-        
-        <th></th> 
-        <!--intestazione nella tabella-->
-        
-        <td></td> 
-        <!--celle di dati nella tabella-->
-        
         <caption></caption>
-        <thead></thead>
-        
-        <tbody></tbody>
-        <tfoot></tfoot>
+        <!--La tag <caption> in HTML definisce una didascalia (titolo) per una tabella (<table>). Deve essere inserita come primo elemento all'interno della tabella e descrive brevemente il suo contenuto. Migliorando acessibillità e organizzazione dei dati. Prima della tag <tr> -->
+
+            <thead></thead>
+            <!-- Mentre la tag <caption> definisce il titolo della tabela, questa tag <thead> definisce l'intestazione di una tabella, raggruppando gli elementi che contengono i titoli delle colonne (come <th>). Deve essere posizionata prima di <tbody> e dopo <caption> (se presente). -->
+
+                 <tbody></tbody>
+                 <!--La tag <tbody> in HTML raggruppa il contenuto principale di una tabella (<table>), separandolo dall'intestazione (<thead>) e dal pie di pagina (<tfoot>). Contiene le righe (<tr>) con i dati effetivi della tabella. -->
+            
+                    <tr></tr> 
+                    <!--righe nella tabella-->
+                    
+                    <th></th> 
+                    <!--intestazione nella tabella-->
+                    
+                    <td></td> 
+                    <!--celle di dati nella tabella-->
+            
+           
+            <tfoot></tfoot>
+            <!--Questa tag <tfoot> in HTML definisce il pie di pagina di una tabella (<table>). Rappgruppa contenuti come totali, somme o note conclusive, e eve essere posizionata dopo <thead> ma prima di <tbody> nel codice anche se viene visualizzata in fonto alla tabella. -->
 
     <input>
+    <!--La tag <input> in HTML crea un campo interativo per l'inserimento di dati da parte dell'utente. é estremamente versatile grazie all'attributo "type", che definisce il tipo di input (testo, password, checkbox, ecc).
+    Tipi piu comuni sono: "text", "password", "email", "number", "checkbox", "ricordarmi", "radio", "file", "submit"
+    Atributi utili: "placeholder", "required", "disabled", "value"
+    Sempre associare a una tag <label> per una migliore usabilità-->
+
     <button></button>
-    <select name="" id=""></select>
-    <table></table>
+    <!--Crea bottoni cliccabili con azioni personalizzabili. Può contenere testo, icone o persino HTML interno.
+    Ecco i principali tipi di button: "button", "submit" e "reset"
+    La tag <button> accetta una serie di attributi di eventi (event handlers) che permettono di eseguire azioni dinamiche. Uno dei piu comuni è l'attributo "onclick", che attiva una funzione JavaScript quando l'utente clicca sul bottone. Ad esempio, <button onclick="alert('Ciao!')">Saluta</button>
+    Oltre a "onclick", puoi utillizzare "ondblclick" per rispondere a un doppio clic, come in <button ondblclick="confermaInvio()">Conferma</button>. Per la gestione del mouse, esistono "onmouseover" (quando il cursore passa sopra) e "onmouseout" (quando il cursore lascia il buttone), utili per effetivi visivi. 
+    Per la tastiera, l'attributo "onkeydown" rileva la pressione di un tasto mentre il bottone è focalizzato, mentre "onkeyup" si attiva al rilascio. Ad esempio, <button onkeydown="cambiaColore()">Premi un tasto</button>.
+    Se lavori con moduli, "onsubmit" o "onrest" possono essere collegati a bottoni di tipo submit / reset per validare dati prima dell'invio. Per il drag-and-drop, "ondragstart" e "ondrop" abilitano interazioni avanzate. -->
+    
     <nav></nav>
     <!--Non potrà mai avete nessun'altra tag dentro-->
 
-    <main></main>
     <article></article>
     <div></div>
+    <!--Un elemento generico utilizzato per tutto, inclusive per raggrupare contenuti senza un significato semantico specifico, spesso impiegato per scopi di stile e layout-->
+
     <section></section>
+    <!--Serve per definire una sezione di contenuti correlati all'interno di un documento, facilitando la compresione del tema trattato. Questo elemento è particolarmente utile per migliorare la struttura e l'organizzazione del contenuto, rendendolo piu acessibile sia per gli utenti che per i motori di ricerca-->
+
     <strong></strong>
     <em></em>
 
