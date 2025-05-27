@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>TO DO LIST [JS]</title>
+</head>
+<body>
+    <!-- Milestone 1
+    Inserice un div verde grande con al'interno un div giallino chiaro piccolo;
+    Inserice il titolo;
+    Inserice l'input di testo con il bottone;
+    Inserice il testo piu piccolo;
+    Lista delle cose da fare ul e li;
+    inserice il bottone per eliminare l'elemento inserito della lista;
+    Un div della lista completata com h2 e un'altra lista ul e li;
+    Eliminare gli elementi della lista completata; 
+    -->
+    <div class="container lightgreen border-debug"> 
+        
+        <div class="border-debug inner-container">
+            <h1>LISTA DELLE COSE DA FARE</h1>
+        
+            <input type="text" name="nuovaAttivita" id="inputText" placeholder="Aggiungi una nuova attività: (...)">
+            <button class="btn-add border-debug">+</button><br>
+            <br>
+            <hr>
+            <ul class="to-do-list">
+                <li class="li-to-do">
+                    <span>Esempio di attività</span>
+                    <button>&check;</button>
+                </li>
+            </ul>
+            <div class="completed-tasks">
+                <h2>Attivita completate</h2>
+
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./js/script.js">
+    </script>
+
+</body>
+</html>

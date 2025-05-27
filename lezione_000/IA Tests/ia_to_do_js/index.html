@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container-verde">
+        <div class="container-amarelo">
+            <h1>Minha Lista de Tarefas</h1>
+            
+            <div class="input-container">
+                <input type="text" id="novaTarefa" placeholder="Adicione uma nova tarefa...">
+                <button id="adicionarBtn">Adicionar</button>
+            </div>
+            
+            <p class="subtitulo">Tarefas pendentes:</p>
+            
+            <ul id="listaTarefas">
+                <!-- Tarefas serão adicionadas aqui via JavaScript -->
+            </ul>
+            
+            <h2>Tarefas Concluídas</h2>
+            <ul id="listaConcluidas">
+                <!-- Tarefas concluídas serão adicionadas aqui -->
+            </ul>
+            
+            <button id="limparConcluidas">Limpar Concluídas</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
