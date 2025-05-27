@@ -1,0 +1,63 @@
+VARIAVEIS
+
+let nome = "João";  // Mutável
+const PI = 3.14;    // Imutável (constante)
+
+TIPOS DE DADOS
+
+// Primitivos
+let texto = "Hello";
+let numero = 42;
+let booleano = true;
+let nulo = null;
+let indefinido = undefined;
+
+// Objetos
+let array = [1, 2, 3];
+let objeto = { chave: "valor" };
+
+FUNçOES ARROW E TRADICIONAL
+
+// Tradicional
+function soma(a, b) {
+    return a + b;
+}
+
+// Arrow (moderna)
+const multiplica = (a, b) => a * b;
+
+DOM BASICO
+
+// Selecionar elementos
+const botao = document.getElementById("meuBotao");
+
+// Event Listener
+botao.addEventListener("click", () => {
+    console.log("Clicou!");
+});
+
+OPERADORES ESSENCIAIS
+
+// Igualdade estrita (recomendado)
+if (idade === 18) { ... }
+
+// Operador ternário
+let status = (idade >= 18) ? "Adulto" : "Menor";
+
+METODOS DE ARRAYS
+
+let numeros = [1, 2, 3];
+
+numeros.push(4);      // Adiciona no final
+numeros.includes(2);  // Verifica existência
+numeros.map(n => n*2); // Transforma elementos
+
+TEMPLATE STRINGS
+
+let nome = "Maria";
+console.log(`Olá, ${nome}!`);  // Olá, Maria!
+
+SPREAD OPERATOR
+
+let arr1 = [1, 2];
+let arr2 = [...arr1, 3];  // [1, 2, 3]

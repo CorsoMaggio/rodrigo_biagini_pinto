@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <!--Use the "id" identificator when you are doing a css for a static item, which is not going to change. 
+    You can use the "class" identificator when it is an information that will change. -->
+    
+    <title>TO DO LIST</title>
+
+</head>
+
+<body>
+
+    <div id="mainBox">
+
+        <h1>TO DO LIST</h1><hr>
+
+        <form id="userInput">
+        
+            <br><label for="userInput">TO DO (...)</label>
+            <input type="text" name="userInput" id="userInput" placeholder="Inserice qui (...)" required>
+            <!-- The "required" makes it mandatory to write something in the box -->
+            <button type="submit"> + </button><br><br><hr>
+        
+            <br><h2>LIST</h2>
+            <ul id="userInputList">
+                <li></li>
+            </ul>
+
+        </form>
+        
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+

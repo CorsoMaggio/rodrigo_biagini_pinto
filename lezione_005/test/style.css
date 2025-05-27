@@ -1,0 +1,49 @@
+/* */
+
+/* BASIC RESET FOR THE HOLE PAGE */ 
+
+* { /* THIS IS A UNIVERSAL SELECTOR, WHICH MEANS IT WILL BE APPLIED IN THE HOLE PAGE. THIS WILL CREATE A PATTERN FOR THE HOLE PAGE. IT IS A GOOD PRACTICE */
+    margin: 0; /* REMOVE ALL EXTERNAL MARGINS FOR ALL ELEMENTS, LIKE THE REGULAR MARGIN FOR THE <body> OF THE HTML CODE. THIS "0" SAYS THAT IS THE DEFAULT FOR THE BROWSER. */
+    padding: 0; /* REMOVE THE SPACE BETWEEN THE BOARD AND THE INSIDE PART OF EACH ELEMENT, ONCE IT IS ON A GENERAL COMMAND, WILL ALSO BE APLIED TO EVERYTHING */
+    box-sizing: border-box; /* COMBINE THE SIZE OF THE ELEMENT WITH THE BOARD */
+}
+
+/* GENERAL STYLE FOR THE <body> */
+
+body { /* THIS WILL AFFECT EVERYTHING INSIDE THE BODY OF THE CODE*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* FONT SHAPE */
+    font-size: small;
+    background-color: #14213d; /* ONCE WE ARE TALKING HERE ABOUT THE BODY, IT WILL AFFECT THE GENERAL BACKGROUND OF THE PAGE */
+    display: flex; /* THAT IS WHAT KEEP THE CONTENT FLOATING IN THE PAGE, NOT IN THE CORNER. IF YOU JUST PUT THE BLOCK, IT WILL BE CREATED ONE AND OTHER ON THE TOP TO THE END OF THE PAGE */
+    justify-content: center; /* */
+    align-items: center; /* ALSO MADE GO EVERYTHING DOWN */
+    min-height: 100vh;
+    color: #000000; /* ADJUSTED THE FONT COLOR, BUT I THINK ITS BETTER */
+}
+
+#mainBox { /* CONTAINER FOR THE 1st <div> THAT IN THIS CASE WAS NAMED "mainBox". FOR THIS CODE, WILL BI ONLY THIS BOX AT ALL. */
+    background-color: #457b9d; /* THIS TIME MAKES JUST THE BACKGROUND OF WHAT IS INSIDE THIS DIV*/
+    color: #ffffff;
+    padding: 1rem 1rem; /* ADD INTERNAL SPACE BETWEEN THE LETTER AND THE BOARD */
+    border-radius: 12px; /* MAKE THE BOARD BE ROUNDED */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* ADDS A SHADOW BEHIND THE BOX */
+    text-align: center;
+    max-width: auto;
+    width: 90%; /* IT WILL BE IN 90% OF THE SPACE OF THE FATHER ELEMENT */
+}
+
+/* Estilo do parágrafo dentro do container */
+#mainBox p {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #2c3e50;
+    letter-spacing: -0.5px;
+    line-height: 1.2;
+}
+
+/* Efeito de hover opcional */
+#mainBox:hover {
+    transform: translateY(-3px);
+    transition: transform 0.3s ease;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.15);
+}
