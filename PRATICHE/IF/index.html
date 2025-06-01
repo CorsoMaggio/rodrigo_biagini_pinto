@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>if_test</title>
+
+    <link rel="stylesheet" href="./css/style.css"> <!--CSS per design-->
+    <!-- The website must be with the dark blue background and golden letters and the most responsive possible -->
+
+</head>
+
+<body>
+
+    <div id="divTitle">
+        <h1><strong>IF TEST (...)</strong></h1>
+    </div>
+
+    <div id="divIntro">
+        <h2>Here you must input your personal information.</h2>
+        <p>First we need your private data: </p>
+        <p>Tell us... </p>
+    </div>
+
+    <form id="inputForm">
+        <div class="formGroup">
+            <label for="completeName">Complete Name: </label>
+            <input type="text" id="completeName" required placeholder="Full name" width="200">
+            <!-- Here we have to apply the form so the client can input its name -->
+             <div class="formGroup">
+                <br><label for="birthDate">Birth Date: </label>
+                <input type="date" name="birtDate" id="birthDate" required> <br><br><hr>
+
+                <div>
+                    <button type="submit">[SUBMIT DATA]</button>
+                </div>
+            </div>
+        </div>
+        
+    </form>
+
+
+    <script src="./js/script.js"></script> 
+    <!-- This is the link for the script.js that contains all the JavaScript code, so it must be in the end of the code. --> 
+
+</body>
+
+</html>
