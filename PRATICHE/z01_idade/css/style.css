@@ -1,0 +1,79 @@
+/* ******************************************************************* */
+
+body { /* css geral da pagina */
+    background-color: rgba(69, 72, 172, 0.548);
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+    text-align: justify;
+}
+
+/* ******************************************************************* */
+
+/* Titulo de dentro da pagina para colocar centralizado e com fundo de cor diferente. */
+
+#tituloDentroDaPagina { /* Estamos usando # porque estamos usando "id" */
+    background-color: rgba(69, 72, 172, 0.548);
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    text-align: center;
+    max-width: auto;
+    color: #bde0fe;
+}
+
+#tituloTextoPagina { /* Titulo da coleta */
+    background-color: rgba(69, 72, 172, 0.548);
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    text-align: justify;
+    max-width: auto;
+    color: #283618;
+}
+
+.buttonReset { /* Estamos usando "." porque estamos usando "class" */
+    background-color: rgb(183, 28, 28);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 50px;
+    width: 400px;
+    color: whitesmoke;
+    cursor: pointer;
+    border-radius: 40%;
+}
+
+#meuFormulario { /* Formulario de coleta de dados do cliente */
+    background-color: rgba(69, 72, 172, 0.548);
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    text-align: justify;
+    max-width: auto;
+    color: #283618;
+}
+
+hr { /* Divisor horizontal de paginas */
+    border: #23dd49;
+    height: 2px;
+    margin: 20px 0;
+    size: 20pt;
+    background-color: #23dd49;
+}
+
+.buttonSubmit { /* Estamos usando "." porque estamos usando "class" */
+    background-color: greenyellow;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 50px;
+    width: 400px;
+    color: black;
+    cursor: pointer;
+    border-radius: 40%;
+}

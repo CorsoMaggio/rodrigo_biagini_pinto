@@ -16,33 +16,33 @@
 
 <body>
 
-    <div id="divTitle">
+    <div id="divTitle"> <!-- Puo usare id o class per dividire -->
         <h1><strong>IF TEST (...)</strong></h1>
-    </div>
+   
 
     <div id="divIntro">
-        <h2>Here you must input your personal information.</h2>
-        <p>First we need your private data: </p>
-        <p>Tell us... </p>
-    </div>
+        <h2>Insert your information (...)</h2>
+    
 
     <form id="inputForm">
-        <div class="formGroup">
-            <label for="completeName">Complete Name: </label>
-            <input type="text" id="completeName" required placeholder="Full name" width="200">
+        <div class="formAge">
+            <label for="completeName">NOME: </label>
+            <input type="text" id="nome" placeholder="Full name" width="200" required>
             <!-- Here we have to apply the form so the client can input its name -->
-             <div class="formGroup">
-                <br><label for="birthDate">Birth Date: </label>
-                <input type="date" name="birtDate" id="birthDate" required> <br><br><hr>
+        </div>
 
-                <div>
-                    <button type="submit">[SUBMIT DATA]</button>
-                </div>
-            </div>
+        <div class="formAge">
+            <br><label for="birthDate">Birth Date: </label>
+            <input type="date" name="birtDate" id="birthDate" required> <br><br><hr>
         </div>
         
     </form>
 
+    <div id"button">
+        <br><button type="submit" id="button">[SUBMIT DATA]</button>        
+    </div>
+
+    <!-- Per centrare il pulsante, l'ho rimosso dal div superiore, posizionandolo in un div separato più in basso per avere uno stile diverso dall'input, poiché il comando veniva sovrapposto -->
 
     <script src="./js/script.js"></script> 
     <!-- This is the link for the script.js that contains all the JavaScript code, so it must be in the end of the code. --> 

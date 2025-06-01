@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Primeiro Programa</title>
+
+    <!-- Texto do rodape do browser -->
+
+    <style>
+    
+    /* Dentro da tag style usamos o comentario em CSS */
+    /* Pode ser interessante fazer um style do body geral aqui, para ter como base que vai ser mesmo aplicado ao codigo inteiro mesmo. */
+    
+        body { /* Configuraçao geral que sera aplicada a toda a pagina, a menos que se faça uma configuraçao individual posteriormente a cada um dos itens */
+            background-color: rgb(105, 105, 173); /* Fundo geral */ 
+            color: white; /* Cor do texto */
+            font: normal 20pt Arial; /* Fonte do texto */
+        }
+
+        h1 { /* Texto que é usado como TITULO, nesse caso nao do browser mas ja sim dentro da pagina HTML. */
+            color: rgb(255, 212, 22); /* Cor do texto aplicado ao titulo */
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Olà, Mundo!</h1>
+    <p>Ja me livrei da maldiçao!!</p>
+
+    <script>
+        var n1 = Number(window.prompt('numero 01: ')) // Sempre que fazemos isso recebemos uma string, entao precisamos passar de string para number //
+        // O + na frente ou o "Number" (N maiusculo mesmo) ele faz o mesmo // 
+        
+        var n2 = Number(window.prompt('numero 02: '))
+
+        var s = n1 + n2
+        
+        window.alert('A soma dos valores è: ' + s + '!') // Isso porque o '+' serve tanto para concatenaçao quanto para soma //
+    </script>
+    
+</body>
+
+</html>

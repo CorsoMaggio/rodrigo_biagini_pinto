@@ -1,40 +1,38 @@
-// 1. Captura o formulário pelo ID "inputForm"
-const form = document.getElementById("inputForm");
+var nome = document.getElementById('nome'); 
+    console.log(nome);
 
-// 2. Adiciona um "ouvinte" de evento para quando o formulário for enviado
-form.addEventListener("submit", function(event) {
-    event.preventDefault(); // Impede o recarregamento da página
 
-    // 3. Captura os valores dos inputs pelos IDs do seu HTML
-    const nomeCompleto = document.getElementById("completeName").value;
-    const dataNascimento = document.getElementById("birthDate").value;
+/*
+document.getElementById('inputForm').addEventListener('submit', function(e) {
+    e.preventDefault();
 
-    // 4. Validação básica (opcional)
-    if (!nomeCompleto || !dataNascimento) {
-        alert("Por favor, preencha todos os campos!");
-        return; // Interrompe a execução se faltar dados
+    // Gerare valore per gli nome e data di nascita 
+
+    const name = document.getElementById('completeName').value;
+    const birthDate = new Date(document.getElementById('birthDate').value);
+
+    // Calcola anni; 
+
+    const today = new Date();
+    
+    let age = today.getFullYear() - birthDate.getMonth();
+
+    if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())){
+    
+        age--;
+    
     }
 
-    // 5. Exibe os dados no console (para debug)
-    console.log("Dados do Usuário:", {
-        nome: nomeCompleto,
-        dataNascimento: dataNascimento
-    });
+    // Prova età
 
-    // 6. Exemplo: Mostra os dados em um alerta formatado
-    alert(`
-        Dados enviados com sucesso!\n
-        Nome: ${nomeCompleto}\n
-        Data de Nascimento: ${formatarData(dataNascimento)}
-    `);
+    const isAdult = age >= 18;
 
-    // 7. (Opcional) Limpa o formulário após o envio
-    form.reset();
-});
+    // Fai vedere i resultati
 
-// Função auxiliar para formatar a data (ex: "01/01/2000")
-function formatarData(dataISO) {
-    const data = new Date(dataISO);
-    return data.toLocaleDateString('pt-BR'); // Formato brasileiro
-    console.log(nomeCompleto, dataNascimento)
-}
+    document.getElementById('inputForm').parentElement.classList.add('hidden');
+    document.getElementById('button').classList.remove('hidden');
+
+    const resultText = document.get
+
+
+} */

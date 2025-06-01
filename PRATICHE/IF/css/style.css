@@ -1,7 +1,72 @@
-body {
-    font-family: 'Courier New', Courier, monospace;
+/* Il "body" viene per la configurazione generale della pagina HTML */
+
+body { /* Tutto che viene guardato dell "client side" */
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
     max-width: auto;
     background-color: #003566;
-    text-align: center;
     color: #e9c46a;
+    margin: 100px;
+    padding: 0;
+    display: block; /* schermo */
+    justify-content: center;
+    align-items: end;
+}
+
+/* Use il # + nome per selezionare la div che vuoi lavorare */
+
+#divTitle { /* Qui ho fatto il titolo della pagina */
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    max-width: auto;
+    background-color: #003566;
+    color: ffb703;
+}
+
+#divIntro {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    max-width: auto;
+    background-color: #003566;
+    color: white;
+}
+
+#inputForm {
+    font-family: Arial, Helvetica, sans-serif;;
+    text-align: justify;
+    max-width: auto;
+    background-color: #003566;
+    color: white;
+}
+
+#button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: #003566;
+    align-items: auto;
+    width: auto;
+}
+
+#resultsTitle { /* Qui ho fatto il titolo della pagina */
+    font-family: Arial, Helvetica, sans-serif;;
+    text-align: center;
+    max-width: auto;
+    background-color: #003566;
+    color: ffb703;
+}
+
+#resultsText { /* Qui ho fatto il titolo della pagina */
+    font-family: Arial, Helvetica, sans-serif;;
+    text-align: justify;
+    max-width: auto;
+    background-color: #003566;
+    color: #a8dadc;
+}
+
+#resultButtons {
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: large;
+    color: #003566;
+    align-content: auto;
+    max-width: auto;
 }

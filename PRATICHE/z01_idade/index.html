@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en"> <!-- Lingua inglesa como padrao -->
+
+<head>
+
+    <!-- Meta data do site -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>01_06</title> <!-- Titulo do browser -->
+
+    <link rel="stylesheet" href="css/style.css"> <!-- Link do arquivo CSS com a ediçao da pagina. -->
+
+</head>
+
+<body>
+
+    <div id="tituloDentroDaPagina">
+        <h1>TITULO DENTRO DA PAGINA</h1>
+    </div>
+    
+    <div>
+        <br><a href="index.html" class="buttonReset" target="_blank">RESET PAGE</a>
+    </div>
+
+    <div id="tituloTextoPagina">
+        <h2>COLETA DE DADOS: </h2>
+    </div>
+
+    <form action="meuFormulario" id="meuFormulario">
+        
+        <label for="nome">LABEL NOME COMPLETO: </label>
+        <input type="text" id="nome" required placeholder="INPUT NOME COMPLETO">
+
+        <br>
+        
+        <label for="date">LABEL DATA NASCIMENTO: </label>
+        <input type="date" id="date" required>
+        
+        <br> <hr>
+    
+    </form>
+
+    <div>
+        <a href="result.html" class="buttonSubmit" onclick="meuAlerta(), teste(), idade()">SUBMIT FORM! </a>
+    </div>
+    
+    <div>
+        <br><a href="index.html" class="buttonReset" target="_blank">RESET PAGE</a>
+    </div>
+
+    <div>
+    <script src="js/script.js"></script>
+    </div>
+    
+</body>
+
+</html>
