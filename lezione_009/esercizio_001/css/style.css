@@ -1,0 +1,33 @@
+body {
+    background-color: #000000;
+    color: #fca311;
+    text-align: center;
+}
+
+h1 {
+    background-color: #fca311;
+    color: #000000;
+    text-align: center;
+    width: auto;
+    align-items: center;
+}
+
+#menu {
+    background-color: #e5e5e5;
+    color: #14213d;
+    text-align: center;
+}
+
+#section {
+    background-color: #e5e5e5;
+    color: #fca311;
+    font-style: bold, italic;
+    text-align: center;
+}
+
+#footer {
+    background-color: #e5e5e5;
+    color: #fca311;
+    font-style: bold, italic;
+    text-align: center;
+}

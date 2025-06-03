@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Esercizio CSS 02 (Homepage)</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+    <!--
+    
+    Homepage del blog: 
+    
+    01 - Navbar in alto con link (anche fittizi) ad altre sezioni del blog (es. Home, Articoli, Contatti); Deve inserire:
+
+        Titolo principale con il nome del blog; 
+
+        Tre card de anteprima viaggio, ognuna con: 
+
+            Un'immagine rappresentativa del viaggio; 
+            Un sottotitolo (es. "3 giorni sul Marte. ");
+            Un breve testo introdutivo; 
+            Un link (Ad esempio un pulsante o a href) che porta alla pagina dell'articolo; 
+    
+    02 - Stili richiesti in CSS: 
+
+        Usa un font-family personalizzato a piacere; 
+        Imposta dimensioni del testo con font-size;
+    
+    -->
+
+    <div>
+
+        <!-- parte 01 -->
+        
+        <nav id="navBar">
+
+            <p>NAVBAR IN ALTO</p>
+            <a href="index.html" id="buttonNav">HOME</a>
+            <a href="articolo.html" id="buttonNav">ARTICOLO</a>
+            <a href="contatti.html" id="buttonNav">CONTATTI</a>
+            <p>LETTERA PERSONALIZATA (ALUMINI SANS)</p>
+
+        </nav>
+
+    </div>
+
+    <div id="titulo">
+    
+        <h1>Nome Blog</h1><hr>
+    
+    <div id="antePrima">
+
+        <table>
+            
+            <tr>
+                <th>sottotitolo 01</th>
+                <th>sottotitolo 02</th>
+                <th>sottotitolo 03</th>
+            
+            </tr>
+            
+            <tr>
+                <th>info 01</th>
+                <th>info 02</th>
+                <th>info 03</th>
+            
+            </tr>
+
+            <tr>
+                <th>
+                    <a href="viaggio1.html" target="_blank">
+                        <img src="img1.jpeg" alt="img1" id="imgAntePrima">
+                    </a>
+                </th>
+                <th>
+                    <a href="viaggio2.html" target="_blank">
+                        <img src="img2.jpeg" alt="img2" id="imgAntePrima">
+                    </a>
+                </th>
+                <th>
+                    <a href="viaggio3.html" target="_blank">
+                        <img src="img3.jpeg" alt="img3" id="imgAntePrima">
+                    </a>
+                </th>
+            </tr>
+
+        </table>
+
+    </div>
+
+    <hr><br>
+
+    <h2>VIAGGIO 2</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, modi quae, quod voluptate aut dolores quam asperiores veritatis laborum delectus a aspernatur, eaque doloribus optio nemo officiis quos sed quidem?</p>
+    
+    <div>
+
+    </div>
+
+    <div id="configJavascript">
+
+    <script type="text/javascript" src="./js/script.js"></script>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+body {
+    background-color: #540b0e;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    color: #e09f3e;
+    display: auto;
+}
+
+#navBar {
+    margin: 0;
+    padding: 10pt;
+    background-color: #335c67;
+    color: #fff3b0;
+    text-align: center;
+    align-items: center;
+}
+
+ #buttonNav {
+    color: whitesmoke;
+}
+
+h1 {
+    color: whitesmoke;
+    margin: 0;
+    padding: 10pt;
+    justify-self: center;
+}
+
+#antePrima {
+    background-color: #e09f3e;
+    width: auto;
+    height: 200px;
+    color: black;
+}
+
+#imgAntePrima {
+    margin: 1px;
+    padding: 5px;
+    width: 80%;
+    height: 80%;
+}
+
+h2, p {
+    justify-self: center;
+    text-align: justify;
+} 
+
+#testoAntePrima {
+    color: black;
+}
