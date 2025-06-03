@@ -9,20 +9,32 @@ function meuAlerta() {
     
 }
 
-function teste() {
-        
-    window.alert('function teste() ')
-
-}
-
 function idade() {
 
     const dataNascimento = document.getElementById('date').value;
     const anoNascimento = parseInt(dataNascimento.split('-')[0]);
     const anoAtual = new Date().getFullYear();
 
-    const idade = anoAtual - anoNascimento
+    const idadeFinal = anoAtual - anoNascimento
 
-    alert('Voce tem ' + idade + ' anos');
+    alert('Voce tem ' + idadeFinal + ' anos');
+}
+
+
+
+function resultado() {
+    
+    if (idadeCliente >= 18) {
+
+        const maioridade = 'Parabens, voce é maior de idade!';
+
+    } else {
+    
+        const maioridade = 'Voce ainda nao é maior de idade... ';
+
+    }
+
+    window.alert(maioridade);
+    console.log(maioridade);
 }
 
