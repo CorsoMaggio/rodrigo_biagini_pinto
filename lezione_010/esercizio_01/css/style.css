@@ -1,0 +1,72 @@
+body {
+    background-color: beige;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10pt;
+    padding: 10pt;
+    position: relative;
+}
+
+#quadrato {
+    /* cor e forma */
+    background-color: #283618;
+    border-color: grey;
+    box-shadow: 0 10px 15px -3px black;
+    min-height: 200px;
+    max-height: fit-content;  /* altura */
+    min-width: 200px;
+    max-width: fit-content;  /* largura */
+    
+    /* display */
+    display: flex; 
+    margin: 10pt; /* margem externa */
+    padding: 10pt; /* margem interna */
+    position: relative;
+    
+    /* texto */
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.superior, .inferior, .img {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color: whitesmoke;
+}
+
+.superior {
+    font-size: larger;
+    top: 20%;
+    transform: translateY(-50%);
+    color: whitesmoke;
+}
+
+.img {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 80%;
+    max-height: 40%;
+    object-fit: contain;
+}
+
+.inferior {
+    bottom: 20%;
+    transform: translateY(-50%);
+    color: whitesmoke;
+}
+
+.img {
+    align-items: center;
+    min-width: 1px;
+    max-width: fit-content;
+    
+    min-height: 1px;
+    max-height: fit-content;
+    color: whitesmoke;
+}

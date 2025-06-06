@@ -1,0 +1,32 @@
+/* 
+header (bloco 01)
+
+site (bloco 02) 
+	hero (esquerda topo)
+	sideBar (esquerda baixo) 
+	mainContent (direita topo)
+	extraContent (direita baixo)
+
+contenutoFinale (bloco 03)
+	relatedImages (esquerda) 
+	related Posts (direita) 
+
+footer (bloco 04)
+
+*/
+
+body {
+  text-align: center;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 0.4fr 0.3fr 0.3fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 15px;
+}
