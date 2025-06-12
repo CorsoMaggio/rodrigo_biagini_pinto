@@ -1,6 +1,19 @@
+:root {
+    /* Cores gerais */
+    --corFundo: #8ecae6;
+    --corLetraConteudo: #fb8500;
+    --corLetraNavBar: #fb8500;
+    --corNavBar: #023047;
+    --corAmarelaExtra: #ffb703;
+
+    /* Espaçamento e forma */
+    --bordaExterna: 0px;
+    --bordaInterna: 0px;    
+}
+
 body {
     /* Colore */
-    background-color: #8ecae6;
+    background-color: var(--corFundo);
 
     /* Display e spazio */
     margin: 0pt;
@@ -21,7 +34,7 @@ p {
     text-align: justify;
 }
 
-.navbar-container {
+.navbar {
     background-color: #023047;
     display: flex;
 
@@ -52,4 +65,15 @@ p {
     height: 80pt;
     width: 100%;
 
+}
+
+.espazioFinale {
+    background-color: var(--corAmarelaExtra);
+    color: var(--corAmarelaExtra);
+
+    margin: 0pt;
+    padding: 0pt;
+
+    height: 200pt;
+    width: auto;
 }
