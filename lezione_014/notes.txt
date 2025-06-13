@@ -1,5 +1,0 @@
-Data una constante chiamata "budget" di 1000€, scrivere un algoritmo che prenda in readline() una cifra espressa in euro. 
-
-01 - Gestire che la cifra nao sia superiore a 1000€; 
-02 - In caso sia inferiore o uguale, dovrete dividere la cifra inserita in 3 rate di pagamento e stampare in console un messagio: "Paga in 3 comede rate da $valore_calcolato Euro."
-
